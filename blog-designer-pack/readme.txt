@@ -1,4 +1,4 @@
-﻿=== Blog Post Grid, Blog Post Slider, Blog Post Carousel, Blog Post Ticker, Blog Post Masonry, Category Post Grid By News & Blog Designer Pack ===
+﻿=== Blog Grid & Post Grid - Blog Post Slider, Blog Post Carousel, Blog Post Ticker, Blog Post Masonry, Category Post Grid By News & Blog Designer Pack ===
 Contributors: infornweb, pluginandplay
 Tags: blog, news, post grid, post slider, post carousel
 Requires at least: 4.7
@@ -8,7 +8,7 @@ Stable tag: 3.4.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create News, Magazine or Blog with post grid, slider, carousel, list, masonry, ticker, grid box, timeline, recent posts, category post, featured post.
+Blog Grid & Post Grid is the leading grid plugin for post grid, slider, carousel, list, masonry, ticker, grid box, timeline, featured & category post.
 
 == Description ==
 
