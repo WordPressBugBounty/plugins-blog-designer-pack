@@ -32,7 +32,7 @@ class Wpbdp_Script {
 	 * @package Blog Designer Pack
  	 * @since 1.0
 	 */
-	function bdp_admin_script_style($hook_suffix) {
+	function bdp_admin_script_style( $hook_suffix ) {
 
 		// For VC Front End Page Editing
 		if( function_exists('vc_is_frontend_editor') && vc_is_frontend_editor() ) {
@@ -40,9 +40,15 @@ class Wpbdp_Script {
 			wp_enqueue_script( 'bdp-vc-frontend' );
 		}
 
-		// Styles
+		/***** Styles *****/
 		wp_register_style( 'bdp-admin-style', BDP_URL . 'assets/css/bdp-admin.css', array(), BDP_VERSION );
 		wp_enqueue_style( 'bdp-admin-style' );
+		
+		// FS Pricing CSS
+		if( BDP_SCREEN_ID.'_page_bdp-about-pricing' == $hook_suffix ) {
+			wp_register_style( 'bdp-fs-pricing', BDP_URL . 'assets/css/fs-pricing.css', array(), BDP_VERSION );
+			wp_enqueue_style( 'bdp-fs-pricing' );
+		}
 		
 		wp_register_script( 'bdp-shrt-generator', BDP_URL . 'assets/js/bdp-shortcode-generator.js', array( 'jquery' ), BDP_VERSION, true );
 		wp_localize_script( 'bdp-shrt-generator', 'Bdp_Shrt_Generator', array(
