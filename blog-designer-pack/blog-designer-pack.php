@@ -7,7 +7,7 @@
  * Domain Path: /languages/
  * Author: InfornWeb
  * Author URI: https://premium.infornweb.com
- * Version: 3.4.9
+ * Version: 3.4.10
  * Requires at least: 4.7
  * Requires PHP: 5.4
 */
@@ -27,7 +27,7 @@ if ( function_exists( 'bdp_fs' ) ) {
  * @since 1.0.0
  */
 if( ! defined( 'BDP_VERSION' ) ) {
-	define( 'BDP_VERSION', '3.4.9' ); // Version of plugin
+	define( 'BDP_VERSION', '3.4.10' ); // Version of plugin
 }
 if( ! defined( 'BDP_DIR' ) ) {
 	define( 'BDP_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -56,10 +56,8 @@ if( ! defined('BDP_CAT') ) {
 register_activation_hook( __FILE__, 'bdp_install' );
 
 /**
- * Plugin Setup (On Activation)
- * 
- * Does the initial setup,
- * stest default values for the plugin options.
+ * Plugin Setup On Activation
+ * Does the initial setup, set default values for the plugin options etc.
  * 
  * @package Blog Designer Pack
  * @since 1.0.6
@@ -119,6 +117,18 @@ function bdp_load_textdomain() {
 }
 
 /**
+ * Prior Init Processes
+ * 
+ * @since 3.4.10
+ */
+function bdp_init_processes() {
+
+	// Load Plugin Textdomain
+	bdp_load_textdomain();
+}
+add_action( 'init', 'bdp_init_processes' );
+
+/**
  * Plugins Loaded Action
  * Call function when all plugins are loaded.
  * 
@@ -126,8 +136,6 @@ function bdp_load_textdomain() {
  * @since 1.0.0
  */
 function bdp_plugins_loaded() {
-
-	bdp_load_textdomain();
 
 	if( ! defined('BDP_SCREEN_ID') ) {
 		define( 'BDP_SCREEN_ID', sanitize_title(__('Blog Designer Pack', 'blog-designer-pack')) );
