@@ -7,7 +7,7 @@
  * Domain Path: /languages/
  * Author: InfornWeb
  * Author URI: https://premium.infornweb.com
- * Version: 3.4.10
+ * Version: 3.4.11
  * Requires at least: 4.7
  * Requires PHP: 5.4
 */
@@ -27,7 +27,7 @@ if ( function_exists( 'bdp_fs' ) ) {
  * @since 1.0.0
  */
 if( ! defined( 'BDP_VERSION' ) ) {
-	define( 'BDP_VERSION', '3.4.10' ); // Version of plugin
+	define( 'BDP_VERSION', '3.4.11' ); // Version of plugin
 }
 if( ! defined( 'BDP_DIR' ) ) {
 	define( 'BDP_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -125,23 +125,16 @@ function bdp_init_processes() {
 
 	// Load Plugin Textdomain
 	bdp_load_textdomain();
-}
-add_action( 'init', 'bdp_init_processes' );
 
-/**
- * Plugins Loaded Action
- * Call function when all plugins are loaded.
- * 
- * @package Blog Designer Pack
- * @since 1.0.0
- */
-function bdp_plugins_loaded() {
-
+	/*
+	 * Plugin Menu Name just to check the screen ID to load condition based assets
+	 * This var is not going to be echo anywhere. `sanitize_title` will take care of string.
+	 */
 	if( ! defined('BDP_SCREEN_ID') ) {
 		define( 'BDP_SCREEN_ID', sanitize_title(__('Blog Designer Pack', 'blog-designer-pack')) );
 	}
 }
-add_action( 'plugins_loaded', 'bdp_plugins_loaded' );
+add_action( 'init', 'bdp_init_processes' );
 
 // Including freemius file
 include_once( BDP_DIR . '/freemius.php' );
