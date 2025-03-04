@@ -2,7 +2,7 @@
 /**
  * freemius helper function for easy SDK access. 
  * 
- * @package Blog Designer Pack Pro
+ * @package Blog Designer Pack
  * @since 1.0
  */
 
@@ -14,14 +14,14 @@ if ( !function_exists( 'bdp_fs' ) ) {
 	
 	// Create a helper function for easy SDK access.
 	function bdp_fs() {
-		
+
 		global $bdp_fs;
 
-		if ( !isset( $bdp_fs ) ) {
-			
+		if ( ! isset( $bdp_fs ) ) {
+
 			// Include Freemius SDK.
 			require_once dirname( __FILE__ ) . '/freemius/start.php';
-			
+
 			$bdp_fs = fs_dynamic_init( array(
 				'id'				=> '5311',
 				'slug'				=> 'blog-designer-pack',
@@ -33,7 +33,9 @@ if ( !function_exists( 'bdp_fs' ) ) {
 				'has_addons'		=> false,
 				'has_paid_plans'	=> true,
 				'menu'				=> array(
-										'slug'			=> 'bdp-about',
+										'slug'			=> 'bdpp-layouts',
+										'first-path'	=> 'admin.php?page=bdpp-settings',
+										'support'		=> false,
 									),
 				'is_live'			=> true,
 			) );

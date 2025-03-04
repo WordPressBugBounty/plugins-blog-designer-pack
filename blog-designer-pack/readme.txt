@@ -3,8 +3,8 @@ Contributors: infornweb, pluginandplay
 Tags: blog, news, post grid, post slider, post carousel
 Requires at least: 4.7
 Requires PHP: 5.4
-Tested up to: 6.7.1
-Stable tag: 3.4.11
+Tested up to: 6.7.2
+Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -371,8 +371,23 @@ Yes, Blog Designer Pack will work with any WordPress themes, but may require som
 
 == Changelog ==
 
-= 3.4.11 (27 Jan, 2025) =
-* [*] Update Freemius SDK to latest version 2.11.0
+= 4.0 (05 March, 2025) =
+* **[Note] - Important notice: This is a major update. We have revamped the whole plugin with new HTML and Owl Carousel JS so please take a backup of your site first before updating. May your CSS / Designing customization can be affected. Also you need to reconfigure the plugin widgets if you are using it.**
+* [New] - Added the most awaited 'Layout' functionality to manage all shortcodes centrally. Now you can create a shortcode layout and manage it centrally with one click.
+* [New] - Updated 'Shortcode Builder' with auto suggestions. Now you can search post type, taxonomy, terms on the go.
+* [New] - Added plugin settings.
+* [New] - Added setting to take 'First Image From Post Content' when the post featured image is not available.
+* [New] - Added 'Enable Post Content Fix' functionality to get post content between the shortcode when post is built with page builders or shortcode.
+* [New] - Added setting for 'Post Default Featured Image' when the post featured image is not available.
+* [New] - Added 'Custom CSS' setting to add custom CSS for the plugin.
+* [New] - Added 'Disable Font Awesome CSS' setting to to disable plugin's Font Awesome CSS with respect to site speed.
+* [New] - Improved plugin performance by CSS and JS minification.
+* [New] - Hide / Remove the respected slider navigation arrow when the loop is set to false for better user experience. e.g. Slider right arrow will be removed when you reach the last slide.
+* [Update] - Updated 'Shortcode Builder' parameters with more tabs so you can find the parameters quickly.
+* [Update] - Check compatibility with Avada theme to display post content when post is built with Avada Builder.
+* [Update] - Update Freemius SDK to latest version 2.11.0
+* [Fix] - Fixed vertical scrolling widget issue when browser tab does not have focus.
+* [Note] - You need to reconfigure the Blog Designer Pack plugin widgets due to code revamp.
 
 = 3.4.10 (30 Nov, 2024) =
 * [*] Fixed translation loading notice in WordPress 6.7
