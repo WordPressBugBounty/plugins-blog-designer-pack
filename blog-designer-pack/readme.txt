@@ -4,7 +4,7 @@ Tags: blog, news, post grid, post slider, post carousel
 Requires at least: 4.7
 Requires PHP: 5.4
 Tested up to: 6.7.2
-Stable tag: 4.0
+Stable tag: 4.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,14 +31,14 @@ Checkout [Premium Version Demo](https://premium.infornweb.com/news-blog-designer
 
 = ✅ Blog Designer Pack is perfect for: =
 
-* Post Grid, News Grid or Blog Grid 
-* Post Carousel, News Carousel or Blog Carousel
-* Post Slider, News Slider or Blog Slider
-* Post List, News List or Blog List
-* Post Masonry, News Masonry or Blog Masonry
-* Post Grid Box, News Grid Box or Blog Grid Box
-* Post Ticker, News Ticker or Blog Ticker
-* Post Vertical Scrolling, News Vertical Scrolling or Blog Vertical Scrolling
+* Post Grid, News Grid or Blog Grid.
+* Post Carousel, News Carousel or Blog Carousel.
+* Post Slider, News Slider or Blog Slider.
+* Post List, News List or Blog List.
+* Post Masonry, News Masonry or Blog Masonry.
+* Post Grid Box, News Grid Box or Blog Grid Box.
+* Post Ticker, News Ticker or Blog Ticker.
+* Post Vertical Scrolling, News Vertical Scrolling or Blog Vertical Scrolling.
 * Post Filtering with Categories Or Tags.
 
 News & Blog Designer Pack is the #1 plugin for creating fully customized News, Magazines, Review Websites, Personal Blogs, Travel Blogs, Fashion Blogs, Viral News, Food Reviews, Recipes Blogs, etc.
@@ -370,6 +370,9 @@ Yes, Blog Designer Pack will work with any WordPress themes, but may require som
 6. Blog Designer Pack - Grid Box Layout
 
 == Changelog ==
+
+= 4.0.1 (08 March, 2025) =
+* [Fix] - Fixed "Local File Inclusion" issues in post masonry load more pagination.
 
 = 4.0 (05 March, 2025) =
 * **[Note] - Important notice: This is a major update. We have revamped the whole plugin with new HTML and Owl Carousel JS so please take a backup of your site first before updating. May your CSS / Designing customization can be affected. Also you need to reconfigure the plugin widgets if you are using it.**

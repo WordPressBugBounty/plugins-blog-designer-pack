@@ -42,6 +42,8 @@ class BDP_Public {
 		$count				= isset( $_POST['count'] )				? $_POST['count']			: $count;
 		$pagination_type	= isset( $atts['pagination_type'] )		? $atts['pagination_type']	: '';
 		$query_shrt			= str_replace('bdp_', 'bdpp_', $shortcode);
+		$shortcode_designs 	= bdp_post_masonry_designs();
+		$atts['design'] 	= ( $atts['design'] && (array_key_exists(trim($atts['design']), $shortcode_designs)) ) ? trim( $atts['design'] ) : 'design-1';
 		$atts['loop_count'] = 0;
 
 		// If valid data found
@@ -100,17 +102,10 @@ class BDP_Public {
 					$atts['wrp_cls']	= "bdpp-post-{$post->ID} bdpp-post-{$atts['format']}";
 					$atts['wrp_cls']	.= ( is_sticky( $post->ID ) ) 	? ' bdpp-sticky'	: '';
 					$atts['wrp_cls'] 	.= empty( $atts['feat_img'] )	? ' bdpp-no-thumb'	: ' bdpp-has-thumb';
-
-					switch ( $shortcode ) {
-
-						case 'bdp_masonry':
-							$tempate_loc		= 'masonry';
-							$atts['wrp_cls']	.= " bdpp-col-{$grid} bdpp-columns";
-							break;
-					}
+					$atts['wrp_cls']	.= " bdpp-col-{$grid} bdpp-columns";
 
 					// Include Dsign File
-					include( BDP_DIR . "/templates/{$tempate_loc}/{$atts['design']}.php" );
+					include( BDP_DIR . "/templates/masonry/{$atts['design']}.php" );
 
 				endwhile;
 
