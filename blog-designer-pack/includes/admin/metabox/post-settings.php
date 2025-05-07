@@ -9,9 +9,12 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-
-global $post;
 ?>
+<div class="meta-pro-badge">
+	<h3><?php esc_html_e( 'Unlock all settings by upgrading to the Pro version.', 'blog-designer-pack' ); ?></h3>
+	<a class="pro-badge" href="<?php echo esc_url( BDP_PRO_TAB_URL ); ?>"><i class="dashicons dashicons-unlock bdpp-shrt-acc-header-pro-icon"></i> <?php esc_html_e( 'Unlock Premium Features', 'blog-designer-pack' ); ?></a>
+</div>
+<div class="bdpp-prowrap-content"></div>
 <div class="bdpp-post-sett-mb-wrp">
 	<table class="form-table">
 		<tbody>
@@ -20,7 +23,7 @@ global $post;
 					<label for="bdpp-disable-sharing"><?php esc_html_e( 'Disable Social Sharing', 'blog-designer-pack' ); ?></label>
 				</th>
 				<td>
-					<input type="checkbox" name="" value="" class="bdpp-checkbox" id="bdpp-disable-sharing" /><br/>
+					<input type="checkbox" name="" value="" class="bdpp-checkbox" id="bdpp-disable-sharing" disabled="disabled" /><br/>
 					<span class="description"><?php esc_html_e('Check this box to disable social sharing for this post.', 'blog-designer-pack'); ?></span>
 				</td>
 			</tr>
@@ -30,7 +33,7 @@ global $post;
 					<label for="bdpp-feat-post"><?php esc_html_e( 'Featured Post', 'blog-designer-pack' ); ?></label>
 				</th>
 				<td>
-					<input type="checkbox" name="" value="" class="bdpp-checkbox" id="bdpp-feat-post" /><br/>
+					<input type="checkbox" name="" value="" class="bdpp-checkbox" id="bdpp-feat-post" disabled="disabled" /><br/>
 					<span class="description"><?php esc_html_e('Check this box to mark this post as a featured post.', 'blog-designer-pack'); ?></span>
 				</td>
 			</tr>
@@ -39,7 +42,7 @@ global $post;
 					<label for="bdpp-sub-title"><?php esc_html_e( 'Post Sub Title', 'blog-designer-pack' ); ?></label>
 				</th>
 				<td>
-					<input type="text" name="" value="" class="large-text" id="bdpp-sub-title" /><br/>
+					<input type="text" name="" value="" class="large-text" id="bdpp-sub-title" disabled="disabled" /><br/>
 					<span class="description"><?php esc_html_e('Enter post sub title.', 'blog-designer-pack'); ?></span>
 				</td>
 			</tr>
@@ -48,7 +51,7 @@ global $post;
 					<label for="bdpp-read-more-link"><?php esc_html_e( 'Read More Link', 'blog-designer-pack' ); ?></label>
 				</th>
 				<td>
-					<input type="text" name="" value="" class="large-text" id="bdpp-read-more-link" /><br/>
+					<input type="text" name="" value="" class="large-text" id="bdpp-read-more-link" disabled="disabled" /><br/>
 					<span class="description"><?php esc_html_e('Enter custom read more link. Leave empty for default post permalink.', 'blog-designer-pack'); ?></span>
 				</td>
 			</tr>
@@ -67,7 +70,7 @@ global $post;
 					<span class="bdpp-post-count-view"><?php echo esc_html( $post_view_count ); ?></span>
 					
 					<?php if( $post_view_count ) { ?>
-					<input type="button" name="" value="<?php esc_html_e('Reset Post Count', 'blog-designer-pack'); ?>" class="button button-secondary" />
+					<input type="button" name="" value="<?php esc_html_e('Reset Post Count', 'blog-designer-pack'); ?>" class="button button-secondary" disabled="disabled" />
 					<?php } ?>
 				</td>
 			</tr>

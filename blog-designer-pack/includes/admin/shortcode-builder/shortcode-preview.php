@@ -15,9 +15,9 @@ $registered_shortcodes  = bdp_registered_shortcodes();
 
 // Getting shortcode value
 if( ! empty( $_POST['bdpp_customizer_shrt'] ) ) {
-	$shortcode_val = wp_unslash( $_POST['bdpp_customizer_shrt'] );
+	$shortcode_val = wp_unslash( $_POST['bdpp_customizer_shrt'] ); // WPCS: input var ok, CSRF ok.
 } elseif ( ! empty($_GET['shortcode']) && isset( $registered_shortcodes[ $_GET['shortcode'] ] ) ) {
-	$shortcode_val = '['.$_GET['shortcode'].']';
+	$shortcode_val = '['.$_GET['shortcode'].']'; // WPCS: input var ok, CSRF ok.
 } else {
 	$shortcode_val = '';
 }

@@ -74,7 +74,7 @@ function bdp_render_general_settings() {
 											</div>
 										<?php } ?>
 									</div>
-								<?php } ?>								
+								<?php } ?>
 								<span class="description"><?php esc_html_e('Note: `post` will be remain enabled by default.', 'blog-designer-pack'); ?></span>
 							</td>
 						</tr>

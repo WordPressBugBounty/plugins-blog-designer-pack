@@ -17,7 +17,7 @@ function bdp_render_trending_settings() {
 
 <div id="bdpp-trending-sett-wrp" class="post-box-container bdpp-trending-sett-wrp">
 	<div class="metabox-holder">
-		<div id="bdpp-trending-sett" class="postbox bdpp-postbox">				
+		<div id="bdpp-trending-sett" class="postbox bdpp-postbox">
 			
 			<div class="postbox-header">
 				<h2 class="hndle">

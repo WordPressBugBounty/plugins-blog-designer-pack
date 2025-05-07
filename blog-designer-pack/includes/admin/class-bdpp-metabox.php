@@ -23,7 +23,7 @@ class BDP_MetaBox {
 	/**
 	 * Register all the meta boxes for the post type
 	 * 
-	 * @version	1.0
+	 * @version	4.0
 	 */
 	function bdp_add_meta_box() {
 
@@ -37,7 +37,7 @@ class BDP_MetaBox {
 	/**
 	 * Post Setting MetaBox
 	 * 
-	 * @version	1.0
+	 * @version	4.0
 	 */
 	function bdp_render_post_sett_meta_box() {
 		include_once( BDP_DIR . '/includes/admin/metabox/post-settings.php' );

@@ -2,7 +2,7 @@
 /**
  * Style Manager
  * 
- * @package Blog Designer Pack Pro
+ * @package Blog Designer Pack
  * @since 4.0
  */
 

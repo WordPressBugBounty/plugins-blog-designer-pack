@@ -2,7 +2,7 @@
 /**
 * Vertical Post Slider Widget Class.
 *
-* @package Blog Designer Pack Pro
+* @package Blog Designer Pack
 * @since 1.0.1
 */
 

@@ -121,7 +121,6 @@
 }
 
 /* Pro CSS */
-
 .bdpp-style-form-wrp img{opacity:0.5;}
 .bdpp-other-post-type-wrap{border:1px solid #eee; padding:15px; margin:10px 0;}
 .bdpp-other-post-type-wrap .bdpp-pro-features{font-size:16px; font-weight:700;}
@@ -148,6 +147,10 @@ a.bdpp-pro-inline-button{border: 1px solid #ca2001; display:block !important; te
 .bdpp-pro-main-wrap .bdpp-cnt-grid {margin-top:30px;}
 .bdpp-pro-main-wrap .bdpp-cnt-grid i.dashicons{font-size:50px !important; display:block; width:auto; height:auto; color:#0693e3;}
 .bdpp-pro-main-wrap .bdpp-cnt-grid .bdpp-cnt-grid-3{margin:15px 0;}
+.bdpp-style-form-wrp img{max-width:100%;}
+
+/* Meta Pro Settings */
+.meta-pro-badge{text-align:center;padding:0px 10px 20px 10px; position:relative;   z-index:999; background:#f1f1f1; border:1px solid #ddd;}
 
 /* Welcome screen CSS */
 .bdpp-welcome-panel-content.bdpp-pro-main-wrap{text-align:left;}
