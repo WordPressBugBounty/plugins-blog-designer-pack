@@ -1,14 +1,14 @@
-﻿=== Blog Grid & Post Grid - Blog Post Slider, Blog Post Carousel, Blog Post Ticker, Blog Post Masonry, Category Post Grid By News & Blog Designer Pack ===
+﻿=== Blog Designer Pack - Post Grid, Post Slider, Post Carousel, Category Post, News ===
 Contributors: infornweb, pluginandplay
 Tags: blog, news, post grid, post slider, post carousel
 Requires at least: 4.7
 Requires PHP: 5.4
-Tested up to: 6.8.1
-Stable tag: 4.0.3
+Tested up to: 6.8.2
+Stable tag: 4.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Blog Grid & Post Grid is the leading grid plugin for post grid, slider, carousel, list, masonry, ticker, grid box, timeline, featured & category post.
+News & Blog plugin for post grid, post slider, post carousel, post filter, masonry, ticker & list category posts using shortcode, Elementor & Divi.
 
 == Description ==
 
@@ -370,6 +370,10 @@ Yes, Blog Designer Pack will work with any WordPress themes, but may require som
 6. Blog Designer Pack - Grid Box Layout
 
 == Changelog ==
+
+= 4.0.4 (03 Aug, 2025) =
+* [Fix] - Fixed "Shortcode Preview" is not showing on some hosting.
+* [Update] - Update Freemius SDK to latest version 2.12.1
 
 = 4.0.3 (15 June, 2025) =
 * [Fix] - Fixed "Layout" preview late refresh while editing the existing one.

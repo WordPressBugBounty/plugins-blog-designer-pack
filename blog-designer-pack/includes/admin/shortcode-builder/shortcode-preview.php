@@ -21,13 +21,16 @@ if( ! empty( $_POST['bdpp_customizer_shrt'] ) ) {
 }
 
 // For authentication so no one can use page via URL
-if( isset( $_SERVER['HTTP_REFERER'] ) ) {
+if( ! empty( $_SERVER['HTTP_REFERER'] ) ) {
 	$url_query  = parse_url($_SERVER['HTTP_REFERER'], PHP_URL_QUERY);
 	parse_str( $url_query, $referer );
 
 	if( ! empty( $referer['page'] ) && ( 'bdpp-shrt-builder' == $referer['page'] || 'bdpp-layout' == $referer['page'] ) ) {
 		$authenticated = true;
 	}
+
+} elseif ( is_user_logged_in() && current_user_can('manage_options') ) {
+	$authenticated = true;
 }
 
 // Check Authentication else exit
