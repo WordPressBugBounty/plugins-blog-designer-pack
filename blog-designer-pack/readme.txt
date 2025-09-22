@@ -1,10 +1,10 @@
-﻿=== Blog Designer Pack - Post Grid, Post Slider, Post Carousel, Category Post, News ===
+﻿=== Blog Designer Pack - Blog, Post Grid, Post Slider, Post Carousel, Category Post, News ===
 Contributors: infornweb, pluginandplay
 Tags: blog, news, post grid, post slider, post carousel
 Requires at least: 4.7
 Requires PHP: 5.4
 Tested up to: 6.8.2
-Stable tag: 4.0.4
+Stable tag: 4.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -370,6 +370,9 @@ Yes, Blog Designer Pack will work with any WordPress themes, but may require som
 6. Blog Designer Pack - Grid Box Layout
 
 == Changelog ==
+
+= 4.0.5 (23 Sep, 2025) =
+* [*] Update Freemius SDK to latest version 2.12.2
 
 = 4.0.4 (03 Aug, 2025) =
 * [Fix] - Fixed "Shortcode Preview" is not showing on some hosting.
