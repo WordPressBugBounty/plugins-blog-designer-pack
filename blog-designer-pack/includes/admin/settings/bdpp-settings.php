@@ -67,7 +67,13 @@ $bdpp_active_tab 	= ( !empty($_GET['tab']) && array_key_exists( $_GET['tab'], $s
 						$selected_nav_cls 	= ($bdpp_active_tab == $sett_key) ? 'nav-tab-active' : '';
 						$tab_url 			= add_query_arg( array( 'page' => 'bdpp-settings', 'tab' => $sett_key), admin_url('admin.php') );
 				?>
-						<a class="nav-tab <?php echo esc_attr( $selected_nav_cls ); ?> bdpp-nav-tab-<?php echo esc_attr( $sett_key ); ?>" href="<?php echo esc_url( $tab_url ); ?>"><?php echo esc_html( $sett_val ); ?></a>
+						<a class="nav-tab <?php echo esc_attr( $selected_nav_cls ); ?> bdpp-nav-tab-<?php echo esc_attr( $sett_key ); ?>" href="<?php echo esc_url( $tab_url ); ?>">
+							<?php echo esc_html( $sett_val );
+
+							if( 'pro' == $sett_key ) { ?>
+							<span class="bdpp-nav-tab-offer"><i class="dashicons dashicons-bell"></i> <?php esc_html_e('Limited Time Offer', 'blog-designer-pack'); ?></span>
+							<?php } ?>
+						</a>
 				<?php
 					} // End of for each
 				} // End of if

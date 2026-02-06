@@ -918,11 +918,11 @@ msgid "Horizontal Ticker Effect"
 msgstr ""
 
 #. Author URI of the plugin
-msgid "https://premium.infornweb.com"
+msgid "https://infornweb.com"
 msgstr ""
 
 #. URI of the plugin
-msgid "https://premium.infornweb.com/news-blog-designer-pack-pro/"
+msgid "https://infornweb.com/news-blog-designer-pack-pro/"
 msgstr ""
 
 #: includes/admin/shortcode-support/shortcode-fields.php:309

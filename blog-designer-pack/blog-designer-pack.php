@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Blog Designer Pack
- * Plugin URI: https://premium.infornweb.com/news-blog-designer-pack-pro/
+ * Plugin URI: https://infornweb.com/news-blog-designer-pack-pro/
  * Description: Display blog posts on your website with 6 blog layouts (2 designs for each blog layout) plus 1 Ticker and 2 Widgets
  * Text Domain: blog-designer-pack
  * Domain Path: /languages/
  * Author: InfornWeb
- * Author URI: https://premium.infornweb.com
- * Version: 4.0.5
+ * Author URI: https://infornweb.com
+ * Version: 4.0.9
  * Requires at least: 4.7
  * Requires PHP: 5.4
  * 
@@ -81,7 +81,7 @@ if ( ! class_exists( 'Blog_Designer_Pack_Lite' ) )  :
 		 */
 		private function setup_constants() {
 
-			$this->define( 'BDP_VERSION', '4.0.5' ); // Version of plugin
+			$this->define( 'BDP_VERSION', '4.0.9' ); // Version of plugin
 			$this->define( 'BDP_FILE', __FILE__ );
 			$this->define( 'BDP_DIR', dirname( __FILE__ ) );
 			$this->define( 'BDP_URL', plugin_dir_url( __FILE__ ) );

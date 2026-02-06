@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Blog Designer Pack\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 19:18+0000\n"
+"POT-Creation-Date: 2026-02-01 19:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -92,7 +92,7 @@ msgstr ""
 msgid "%s Unlock to get Ticker Control options."
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:235
+#: includes/admin/class-bdpp-admin.php:238
 msgid "(Copy)"
 msgstr ""
 
@@ -100,7 +100,7 @@ msgstr ""
 msgid "-- Choose Layout --"
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:62
+#: includes/admin/shortcode-builder/shortcode-builder.php:63
 msgid "-- Choose Shortcode --"
 msgstr ""
 
@@ -148,7 +148,7 @@ msgstr ""
 msgid "Add New"
 msgstr ""
 
-#: includes/bdpp-post-types.php:24 includes/admin/class-bdpp-admin.php:46
+#: includes/bdpp-post-types.php:24 includes/admin/class-bdpp-admin.php:49
 #: includes/admin/shortcode-builder/add-layout.php:40
 msgid "Add New Layout"
 msgstr ""
@@ -168,12 +168,12 @@ msgstr ""
 msgid "All Layout"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:43
+#: includes/admin/class-bdpp-admin.php:46
 #: includes/admin/shortcode-builder/class-bdpp-layout-list.php:347
 msgid "All Layouts"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:43
+#: includes/admin/class-bdpp-admin.php:46
 msgid "All Layouts - Blog Designer Pack"
 msgstr ""
 
@@ -281,9 +281,9 @@ msgid "Bellow are custom post types(CPTs) and custom Taxonomies."
 msgstr ""
 
 #. Name of the plugin
-#: blog-designer-pack.php:256 includes/admin/class-bdpp-admin.php:40
-#: includes/admin/class-bdpp-admin.php:40
-#: includes/admin/class-bdpp-admin.php:55
+#: blog-designer-pack.php:256 includes/admin/class-bdpp-admin.php:43
+#: includes/admin/class-bdpp-admin.php:43
+#: includes/admin/class-bdpp-admin.php:58
 #: includes/integrations/elementor/bdpp-layout-elementor-wdgt.php:20
 #: includes/integrations/wpbakery/wpbakery.php:25
 msgid "Blog Designer Pack"
@@ -674,7 +674,7 @@ msgstr ""
 msgid "Choose sharing theme."
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:59
+#: includes/admin/shortcode-builder/shortcode-builder.php:60
 msgid "Choose Shortcode"
 msgstr ""
 
@@ -758,6 +758,10 @@ msgstr ""
 msgid "Click to toggle"
 msgstr ""
 
+#: includes/admin/settings/bdpp-pro-settings.php:76
+msgid "Compare Premium Plans"
+msgstr ""
+
 #: includes/integrations/wpbakery/wpbakery.php:29
 msgid "Content"
 msgstr ""
@@ -807,7 +811,7 @@ msgid "Copy"
 msgstr ""
 
 #: includes/admin/shortcode-builder/add-layout.php:276
-#: includes/admin/shortcode-builder/shortcode-builder.php:122
+#: includes/admin/shortcode-builder/shortcode-builder.php:123
 msgid "Copy or Paste Shortcode"
 msgstr ""
 
@@ -817,6 +821,20 @@ msgstr ""
 
 #: includes/admin/settings/bdpp-welcome-settings.php:139
 msgid "Create a Blog OR News Website"
+msgstr ""
+
+#: includes/admin/class-bdpp-admin.php:315
+#, php-format
+msgid ""
+"Create Category Grid or Category Slider with Blog Designer Pack Pro. <a "
+"href=\"%s\">Take a look</a>"
+msgstr ""
+
+#: includes/admin/class-bdpp-admin.php:316
+#, php-format
+msgid ""
+"Create Post Timeline layout with Blog Designer Pack Pro. <a href=\"%s\">"
+"Upgrade now</a>"
 msgstr ""
 
 #: includes/admin/settings/bdpp-welcome-settings.php:34
@@ -998,6 +1016,13 @@ msgstr ""
 
 #: includes/admin/shortcode-support/shortcode-fields.php:4234
 msgid "Display Featured Image"
+msgstr ""
+
+#: includes/admin/class-bdpp-admin.php:317
+#, php-format
+msgid ""
+"Display Featured Post or Trending Post with Blog Designer Pack Pro. <a "
+"href=\"%s\">Upgrade now</a>"
 msgstr ""
 
 #: includes/admin/settings/bdpp-welcome-settings.php:146
@@ -1754,14 +1779,14 @@ msgid "Font Style"
 msgstr ""
 
 #: includes/admin/shortcode-builder/add-layout.php:283
-#: includes/admin/shortcode-builder/shortcode-builder.php:118
+#: includes/admin/shortcode-builder/shortcode-builder.php:119
 msgid "Full Preview Mode"
 msgstr ""
 
 #: includes/bdpp-functions.php:689
 #: includes/admin/settings/bdpp-register-settings.php:68
 #: includes/admin/shortcode-builder/add-layout.php:153
-#: includes/admin/shortcode-builder/shortcode-builder.php:68
+#: includes/admin/shortcode-builder/shortcode-builder.php:69
 #: includes/admin/shortcode-support/shortcode-fields.php:4176
 msgid "General"
 msgstr ""
@@ -1786,7 +1811,7 @@ msgid "General Settings"
 msgstr ""
 
 #: includes/admin/shortcode-builder/add-layout.php:272
-#: includes/admin/shortcode-builder/shortcode-builder.php:117
+#: includes/admin/shortcode-builder/shortcode-builder.php:118
 msgid "Generate"
 msgstr ""
 
@@ -1896,6 +1921,35 @@ msgid ""
 "automatically be inserted to the header of theme, when you save it."
 msgstr ""
 
+#: includes/admin/class-bdpp-admin.php:312
+#, php-format
+msgid ""
+"Hey! Blog Designer Pack Pro supports Custom Post type and Custom taxonomy. "
+"<a href=\"%s\">Upgrade now</a> to create a any layout for Custom Post type."
+msgstr ""
+
+#: includes/admin/class-bdpp-admin.php:311
+#, php-format
+msgid ""
+"Hey! Do you know Blog Designer Pack Pro have 90+ premium layouts? <a "
+"href=\"%s\">Click here</a> to take a look."
+msgstr ""
+
+#: includes/admin/class-bdpp-admin.php:313
+#, php-format
+msgid ""
+"Hey! Do you want more layouts for Post Slider and Post Carousel? <a "
+"href=\"%s\">Upgrade now</a>"
+msgstr ""
+
+#: includes/admin/class-bdpp-admin.php:310
+#, php-format
+msgid ""
+"Hey! It looks like that you are using Blog Designer Pack for a while. Would "
+"you like to a look at the Pro version? <a href=\"%s\">Click here</a> for the "
+"amazing features."
+msgstr ""
+
 #: includes/integrations/elementor/bdpp-layout-elementor-wdgt.php:67
 msgid "Hide"
 msgstr ""
@@ -1923,11 +1977,11 @@ msgid "Horizontal Right"
 msgstr ""
 
 #. Author URI of the plugin
-msgid "https://premium.infornweb.com"
+msgid "https://infornweb.com"
 msgstr ""
 
 #. URI of the plugin
-msgid "https://premium.infornweb.com/news-blog-designer-pack-pro/"
+msgid "https://infornweb.com/news-blog-designer-pack-pro/"
 msgstr ""
 
 #: includes/admin/shortcode-support/shortcode-fields.php:574
@@ -1940,7 +1994,7 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:281
+#: includes/admin/class-bdpp-admin.php:289
 msgid "ID:"
 msgstr ""
 
@@ -2076,14 +2130,14 @@ msgstr ""
 msgid "Latest Posts"
 msgstr ""
 
-#: includes/bdpp-post-types.php:22 includes/admin/class-bdpp-admin.php:155
+#: includes/bdpp-post-types.php:22 includes/admin/class-bdpp-admin.php:158
 #: includes/admin/shortcode-builder/class-bdpp-layout-list.php:80
 #: includes/integrations/elementor/bdpp-layout-elementor-wdgt.php:52
 #: includes/integrations/wpbakery/wpbakery.php:35
 msgid "Layout"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:46
+#: includes/admin/class-bdpp-admin.php:49
 msgid "Layout - Blog Designer Pack"
 msgstr ""
 
@@ -2165,6 +2219,15 @@ msgstr ""
 msgid "Left"
 msgstr ""
 
+#: includes/admin/settings/bdpp-settings.php:74
+msgid "Limited Time Offer"
+msgstr ""
+
+#: includes/admin/shortcode-builder/add-layout.php:236
+#: includes/admin/shortcode-builder/shortcode-builder.php:37
+msgid "Limited Time Special Offer!"
+msgstr ""
+
 #: includes/admin/shortcode-builder/class-bdpp-layout-list.php:184
 msgid "Live"
 msgstr ""
@@ -2175,6 +2238,13 @@ msgstr ""
 #: includes/admin/shortcode-support/shortcode-fields.php:3274
 #: includes/admin/shortcode-support/shortcode-fields.php:3938
 msgid "Load More"
+msgstr ""
+
+#: includes/admin/class-bdpp-admin.php:314
+#, php-format
+msgid ""
+"Load More or Infinite Scrolling pagination can be a good feature for your "
+"blog page with Blog Designer Pack. <a href=\"%s\">Take a look</a>"
 msgstr ""
 
 #: includes/integrations/elementor/select2-ajax-control.php:18
@@ -2303,7 +2373,7 @@ msgid "No layout found in trash"
 msgstr ""
 
 #: includes/class-bdpp-scripts.php:204
-#: includes/admin/shortcode-builder/shortcode-preview.php:77
+#: includes/admin/shortcode-builder/shortcode-preview.php:78
 msgid "No more post to display."
 msgstr ""
 
@@ -2355,7 +2425,7 @@ msgid ""
 msgstr ""
 
 #: includes/admin/shortcode-builder/add-layout.php:296
-#: includes/admin/shortcode-builder/shortcode-builder.php:136
+#: includes/admin/shortcode-builder/shortcode-builder.php:137
 msgid ""
 "Note: Preview will be displayed according to responsive layout mode. Live "
 "preview may display differently when added to your page based on inheritance "
@@ -2492,7 +2562,7 @@ msgstr ""
 msgid "Parent ID"
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:115
+#: includes/admin/shortcode-builder/shortcode-builder.php:116
 msgid "Paste below shortcode to any page or post to get output as preview."
 msgstr ""
 
@@ -2740,14 +2810,14 @@ msgid "Preview"
 msgstr ""
 
 #: includes/admin/shortcode-builder/add-layout.php:281
-#: includes/admin/shortcode-builder/shortcode-builder.php:126
+#: includes/admin/shortcode-builder/shortcode-builder.php:127
 msgid ""
 "Preview will be displayed according to responsive layout mode. You can check "
 "with `Full Preview` mode for better visualization."
 msgstr ""
 
 #: includes/admin/shortcode-builder/add-layout.php:281
-#: includes/admin/shortcode-builder/shortcode-builder.php:126
+#: includes/admin/shortcode-builder/shortcode-builder.php:127
 msgid "Preview Window"
 msgstr ""
 
@@ -3241,7 +3311,7 @@ msgstr ""
 msgid "Set ticker theme color."
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:55
+#: includes/admin/class-bdpp-admin.php:58
 msgid "Settings"
 msgstr ""
 
@@ -3264,11 +3334,11 @@ msgstr ""
 #: includes/admin/shortcode-builder/add-layout.php:182
 #: includes/admin/shortcode-builder/add-layout.php:270
 #: includes/admin/shortcode-builder/class-bdpp-layout-list.php:182
-#: includes/admin/shortcode-builder/shortcode-builder.php:115
+#: includes/admin/shortcode-builder/shortcode-builder.php:116
 msgid "Shortcode"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:49
+#: includes/admin/class-bdpp-admin.php:52
 msgid "Shortcode Builder"
 msgstr ""
 
@@ -3276,7 +3346,7 @@ msgstr ""
 msgid "Shortcode Builder (Alternate Option For Layouts)"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:49
+#: includes/admin/class-bdpp-admin.php:52
 msgid "Shortcode Builder - Blog Designer Pack"
 msgstr ""
 
@@ -3291,16 +3361,16 @@ msgstr ""
 msgid "Shortcode layout(s) deleted successfully."
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:99
+#: includes/admin/shortcode-builder/shortcode-builder.php:100
 msgid "Shortcode Parameters"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:58
-#: includes/admin/shortcode-builder/shortcode-preview.php:46
+#: includes/admin/class-bdpp-admin.php:61
+#: includes/admin/shortcode-builder/shortcode-preview.php:47
 msgid "Shortcode Preview"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:58
+#: includes/admin/class-bdpp-admin.php:61
 msgid "Shortcode Preview - Blog Designer Pack"
 msgstr ""
 
@@ -3577,8 +3647,8 @@ msgstr ""
 #: includes/admin/shortcode-builder/add-layout.php:68
 #: includes/admin/shortcode-builder/add-layout.php:290
 #: includes/admin/shortcode-builder/class-bdpp-shortcode-generator.php:38
-#: includes/admin/shortcode-builder/shortcode-builder.php:47
-#: includes/admin/shortcode-builder/shortcode-builder.php:130
+#: includes/admin/shortcode-builder/shortcode-builder.php:48
+#: includes/admin/shortcode-builder/shortcode-builder.php:131
 msgid "Sorry, Something happened wrong."
 msgstr ""
 
@@ -3593,7 +3663,7 @@ msgid "Sorry, Something happened wrong. Layout data has not been saved."
 msgstr ""
 
 #: includes/admin/shortcode-builder/add-layout.php:247
-#: includes/admin/shortcode-builder/shortcode-builder.php:54
+#: includes/admin/shortcode-builder/shortcode-builder.php:55
 msgid ""
 "Sorry, The shortcode contains some invalid parameters. These parameters may "
 "be missing, obsolete, or incompatible with the current selection. Please "
@@ -3601,12 +3671,16 @@ msgid ""
 "correctly."
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-preview.php:37
+#: includes/admin/shortcode-builder/shortcode-preview.php:38
 msgid "Sorry, you are not allowed to access this page."
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-preview.php:69
+#: includes/admin/shortcode-builder/shortcode-preview.php:70
 msgid "Sorry, You can not visit the link in preview mode."
+msgstr ""
+
+#: includes/admin/class-bdpp-admin.php:324
+msgid "Special Offer - Unlock Pro & Save Big!"
 msgstr ""
 
 #: includes/widgets/class-bdpp-post-scrolling-widget.php:190
@@ -3623,7 +3697,7 @@ msgstr ""
 msgid "Style"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:52
+#: includes/admin/class-bdpp-admin.php:55
 #: includes/style-manager/styles-form.php:16
 #: includes/admin/shortcode-support/shortcode-fields.php:643
 #: includes/admin/shortcode-support/shortcode-fields.php:1417
@@ -3634,7 +3708,7 @@ msgstr ""
 msgid "Style Manager"
 msgstr ""
 
-#: includes/admin/class-bdpp-admin.php:52
+#: includes/admin/class-bdpp-admin.php:55
 msgid "Style Manager - Blog Designer Pack"
 msgstr ""
 
@@ -3691,11 +3765,11 @@ msgid "Taxonomy Settings"
 msgstr ""
 
 #: includes/admin/shortcode-builder/add-layout.php:248
-#: includes/admin/shortcode-builder/shortcode-builder.php:55
+#: includes/admin/shortcode-builder/shortcode-builder.php:56
 msgid "The parameters are:"
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:94
+#: includes/admin/shortcode-builder/shortcode-builder.php:95
 msgid ""
 "The shortcode builder allows you to preview plugin shortcode. You can choose "
 "your desired shortcode from the dropdown and check various parameters from "
@@ -3953,7 +4027,7 @@ msgstr ""
 #: includes/admin/settings/bdpp-taxonomy-settings.php:24
 #: includes/admin/settings/bdpp-trending-settings.php:24
 #: includes/admin/shortcode-builder/add-layout.php:237
-#: includes/admin/shortcode-builder/shortcode-builder.php:37
+#: includes/admin/shortcode-builder/shortcode-builder.php:38
 msgid "Unlock Premium Features"
 msgstr ""
 
@@ -3963,9 +4037,9 @@ msgstr ""
 
 #: includes/admin/settings/bdpp-pro-settings.php:21
 #: includes/admin/settings/bdpp-pro-settings.php:32
-#: includes/admin/settings/bdpp-pro-settings.php:42
-#: includes/admin/settings/bdpp-pro-settings.php:56
-#: includes/admin/settings/bdpp-pro-settings.php:126
+#: includes/admin/settings/bdpp-pro-settings.php:86
+#: includes/admin/settings/bdpp-pro-settings.php:101
+#: includes/admin/settings/bdpp-pro-settings.php:171
 msgid "Upgrade to Premium"
 msgstr ""
 
@@ -3986,8 +4060,22 @@ msgstr ""
 msgid "Usages"
 msgstr ""
 
+#: includes/admin/class-bdpp-admin.php:319
+#, php-format
+msgid ""
+"Use AJAX Filter functionality for Post with Blog Designer Pack Pro. <a "
+"href=\"%s\">Upgrade now</a>"
+msgstr ""
+
 #: includes/admin/shortcode-builder/class-bdpp-shortcode-builder.php:150
 msgid "Use Premium"
+msgstr ""
+
+#: includes/admin/class-bdpp-admin.php:318
+#, php-format
+msgid ""
+"Use social sharing feature for Post with Blog Designer Pack Pro. <a "
+"href=\"%s\">Upgrade now</a>"
 msgstr ""
 
 #: includes/admin/shortcode-support/shortcode-fields.php:4296

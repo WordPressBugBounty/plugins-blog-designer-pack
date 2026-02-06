@@ -34,6 +34,7 @@ $shortcode_sanitize = str_replace('-', '_', $preview_shortcode);
 			<p><?php esc_html_e( 'Shortcode builder is an alternate option for those who do not want to create the layout & store the data in to database. It will help you to understand all the parameters in the details.', 'blog-designer-pack' ); ?></p>
 		</div>
 		<div class="bdpp-cnt-grid-4 bdpp-columns" style="text-align:right; padding-top:20px;">
+			<div class="bdpp-spc-offer" style="text-align:right;">🎉 <?php esc_html_e('Limited Time Special Offer!', 'blog-designer-pack'); ?></div>
 			<a class="pro-badge" href="<?php echo esc_url( BDP_PRO_TAB_URL ); ?>"><i class="dashicons dashicons-unlock bdpp-shrt-acc-header-pro-icon"></i> <?php esc_html_e( 'Unlock Premium Features', 'blog-designer-pack' ); ?></a>
 		</div>
 	</div>

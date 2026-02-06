@@ -1,10 +1,10 @@
 ﻿=== Blog Designer Pack - Blog, Post Grid, Post Slider, Post Carousel, Category Post, News ===
-Contributors: infornweb, pluginandplay
+Contributors: infornweb, aadhya9
 Tags: blog, news, post grid, post slider, post carousel
 Requires at least: 4.7
 Requires PHP: 5.4
-Tested up to: 6.8.2
-Stable tag: 4.0.5
+Tested up to: 6.9
+Stable tag: 4.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,10 +24,10 @@ News & Blog Designer Pack – WordPress Blog Plugin can be used as a news & blog
 
 View [FREE DEMO](https://demo.infornweb.com/blog-designer-pack-demo/) for more details.
 
-Checkout [Premium Version Demo](https://premium.infornweb.com/news-blog-designer-pack-pro/) | [Buy Premium Version](https://premium.infornweb.com/news-blog-designer-pack-pro/)  for more designs and options.
+Checkout [Premium Version Demo](https://infornweb.com/news-blog-designer-pack-pro/) | [Buy Premium Version](https://infornweb.com/news-blog-designer-pack-pro/)  for more designs and options.
 
 > 🌟 <strong>Premium Version</strong> supports Custom Post Type, Custom Taxonomy, Custom Tags, Featured Posts, Trending Posts, Timeline, Post Filtering with Categories Or Tags, Category Grid, Category Slider as well as many cool features.
-> You can get [News & Blog Designer Pack Premium here](https://premium.infornweb.com/news-blog-designer-pack-pro/)!
+> You can get [News & Blog Designer Pack Premium here](https://infornweb.com/news-blog-designer-pack-pro/)!
 
 = ✅ Blog Designer Pack is perfect for: =
 
@@ -245,7 +245,7 @@ However, using Blog Designer Pack plugin you can design your blog page as per yo
 > * 100% Multi language.
 > * Many more other features also…
 >
-> View [PRO DEMO and Features](https://premium.infornweb.com/news-blog-designer-pack-pro/) for additional information.
+> View [PRO DEMO and Features](https://infornweb.com/news-blog-designer-pack-pro/) for additional information.
 >
 
 = ✅ Post Filtering with Categories Or Tags =
@@ -285,9 +285,9 @@ Logo credit : [Freepik](https://www.freepik.com/free-vector/collection-of-abstra
 
 If you find News & Blog Designer Pack – WordPress Blog Plugin plugin useful, please leave a good rating and consider checking out our other plugins:
 
-* <a href="https://premium.infornweb.com/post-slider-and-carousel-pro/" rel="friend" title="Post Slider and Carousel with Widget - A Responsive Post Slider">Post Slider and Carousel with Widget</a> - A Responsive Post Slider and Post Carousel Plugin
-* <a href="https://premium.infornweb.com/logo-showcase-with-slick-slider-pro/" rel="friend" title="Logo Showcase with Slick Slider – Logo Carousel, Logo Slider & Logo Grid">Logo Showcase with Slick Slider</a> - Logo Carousel, Logo Slider & Logo Grid Plugin
-* <a href="https://premium.infornweb.com/post-list-designer-pro/" rel="friend" title="Posts List Designer by Category - List Category Posts Or Recent Posts">Posts List Designer by Category</a> - Display Posts by Category in a List View
+* <a href="https://infornweb.com/post-slider-and-carousel-pro/" rel="friend" title="Post Slider and Carousel with Widget - A Responsive Post Slider">Post Slider and Carousel with Widget</a> - A Responsive Post Slider and Post Carousel Plugin
+* <a href="https://infornweb.com/logo-showcase-with-slick-slider-pro/" rel="friend" title="Logo Showcase with Slick Slider – Logo Carousel, Logo Slider & Logo Grid">Logo Showcase with Slick Slider</a> - Logo Carousel, Logo Slider & Logo Grid Plugin
+* <a href="https://infornweb.com/post-list-designer-pro/" rel="friend" title="Posts List Designer by Category - List Category Posts Or Recent Posts">Posts List Designer by Category</a> - Display Posts by Category in a List View
 
 == Installation ==
 
@@ -370,6 +370,20 @@ Yes, Blog Designer Pack will work with any WordPress themes, but may require som
 6. Blog Designer Pack - Grid Box Layout
 
 == Changelog ==
+
+= 4.0.9 (02 Feb, 2026) =
+* Minor tweaks and improvements.
+
+= 4.0.8 (04 Jan, 2026) =
+* [*] Updated plugin website links.
+
+= 4.0.7 (04 Dec, 2025) =
+* [*] Check compatibility with WordPress 6.9
+* [*] Update Freemius SDK to latest version 2.13.0
+
+= 4.0.6 (21 Oct, 2025) =
+* [*] Check compatibility with WordPress 6.8.3
+* [*] Check compatibility with PHP version 8.3.26
 
 = 4.0.5 (23 Sep, 2025) =
 * [*] Update Freemius SDK to latest version 2.12.2

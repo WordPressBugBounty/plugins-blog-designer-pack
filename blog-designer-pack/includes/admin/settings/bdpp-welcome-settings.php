@@ -38,7 +38,7 @@ $new_layout_url		= add_query_arg( array('page' => 'bdpp-layout'), 'admin.php' );
 									<h3 class="bdpp-custom-size"><?php esc_html_e('Next Steps', 'blog-designer-pack'); ?></h3> 
 									<ul>
 										<li><a href="#Usages-of-bdpp"><span class="dashicons dashicons-welcome-widgets-menus"></span> <?php esc_html_e('Usages', 'blog-designer-pack'); ?></a></li>	
-										<li><a href="https://premium.infornweb.com/news-blog-designer-pack-pro/" target="_blank"><span class="dashicons dashicons-welcome-view-site"></span> <?php esc_html_e('Premium Demo', 'blog-designer-pack'); ?></a></li>
+										<li><a href="https://infornweb.com/news-blog-designer-pack-pro/" target="_blank"><span class="dashicons dashicons-welcome-view-site"></span> <?php esc_html_e('Premium Demo', 'blog-designer-pack'); ?></a></li>
 									</ul>
 								</div>
 								<div class="bdpp-cnt-grid-3 bdpp-columns">
@@ -139,28 +139,28 @@ $new_layout_url		= add_query_arg( array('page' => 'bdpp-layout'), 'admin.php' );
 											<h4 class="bdpp-custom-size"><span class="dashicons dashicons-yes-alt"></span> <?php esc_html_e('Create a Blog OR News Website', 'blog-designer-pack'); ?></h4>
 											<div class="bdpp-box-content">
 												<p><?php esc_html_e('This is very helpful plugin to create a Blog website or News/Magazine website. Just use the layouts with the help of shortcode and design your page.', 'blog-designer-pack'); ?></p>
-												<p><?php echo sprintf( __('Check sample %sBlog-1%s, %sBlog-2%s  and %sNews/Magazine%s page here created with Blog Designer Pack.', 'blog-designer-pack'), '<a href="https://premium.infornweb.com/blog-3/" target="_blank">', '</a>', '<a href="https://premium.infornweb.com/blog-4/" target="_blank">', '</a>', '<a href="https://premium.infornweb.com/news-magazine/" target="_blank">', '</a>' ); ?></p>
+												<p><?php echo sprintf( __('Check sample %sBlog-1%s, %sBlog-2%s  and %sNews/Magazine%s page here created with Blog Designer Pack.', 'blog-designer-pack'), '<a href="https://infornweb.com/blog-3/" target="_blank">', '</a>', '<a href="https://infornweb.com/blog-4/" target="_blank">', '</a>', '<a href="https://infornweb.com/news-magazine/" target="_blank">', '</a>' ); ?></p>
 											</div>
-										</div>	
+										</div>
 										<div class="bdpp-getting-started bdpp-box">
 											<h4 class="bdpp-custom-size"><span class="dashicons dashicons-yes-alt"></span> <?php esc_html_e('Display latest post on home page from blog', 'blog-designer-pack'); ?></h4>
 											<div class="bdpp-box-content">
 												<p><?php esc_html_e('You can display latest post from your blog on home page. You can use 9+ layout for this e.g. grid view OR slider view OR Carousel View etc.', 'blog-designer-pack'); ?></p>
-												<p><?php echo sprintf( __('Check sample %sSlider%s, %sCarousel%s and %sPartial Slide%s created with Blog Designer Pack.', 'blog-designer-pack'), '<a href="https://premium.infornweb.com/blog-designer-pack-pro-slider-designs/" target="_blank">', '</a>', '<a href="https://premium.infornweb.com/blog-designer-pack-pro-carousel-designs/" target="_blank">', '</a>', '<a href="https://premium.infornweb.com/blog-designer-pack-pro-carousel-with-partial-slide-designs/" target="_blank">', '</a>' ); ?></p>
+												<p><?php echo sprintf( __('Check sample %sSlider%s, %sCarousel%s and %sPartial Slide%s created with Blog Designer Pack.', 'blog-designer-pack'), '<a href="https://infornweb.com/blog-designer-pack-pro-slider-designs/" target="_blank">', '</a>', '<a href="https://infornweb.com/blog-designer-pack-pro-carousel-designs/" target="_blank">', '</a>', '<a href="https://infornweb.com/blog-designer-pack-pro-carousel-with-partial-slide-designs/" target="_blank">', '</a>' ); ?></p>
 											</div>
 										</div>
 										<div class="bdpp-getting-started bdpp-box">
 											<h4 class="bdpp-custom-size"><span class="dashicons dashicons-yes-alt"></span> <?php esc_html_e('Display Featured and Trending Post', 'blog-designer-pack'); ?></h4>
 											<div class="bdpp-box-content">
 												<p><?php esc_html_e('Highlights your Featured and most Popular/Trending post. You can use 9+ layout for this e.g. grid view OR slider view OR Carousel View etc.', 'blog-designer-pack'); ?></p>
-												<p><?php echo sprintf( __('Check sample %sDemo%s created with Blog Designer Pack.', 'blog-designer-pack'), '<a href="https://premium.infornweb.com/blog-designer-pack-pro-featured-and-trending-post/" target="_blank">', '</a>' ); ?></p>
+												<p><?php echo sprintf( __('Check sample %sDemo%s created with Blog Designer Pack.', 'blog-designer-pack'), '<a href="https://infornweb.com/blog-designer-pack-pro-featured-and-trending-post/" target="_blank">', '</a>' ); ?></p>
 											</div>
 										</div>
 										<div class="bdpp-getting-started bdpp-box">
 											<h4 class="bdpp-custom-size"><span class="dashicons dashicons-yes-alt"></span> <?php esc_html_e('Display Post Timeline', 'blog-designer-pack'); ?></h4>
 											<div class="bdpp-box-content">
 												<p><?php esc_html_e('Display posts in timeline view.', 'blog-designer-pack'); ?></p>
-												<p><?php echo sprintf( __('Check sample %sDemo%s created with Blog Designer Pack.', 'blog-designer-pack'), '<a href="https://premium.infornweb.com/blog-designer-pack-pro-timeline-designs/" target="_blank">', '</a>' ); ?></p>
+												<p><?php echo sprintf( __('Check sample %sDemo%s created with Blog Designer Pack.', 'blog-designer-pack'), '<a href="https://infornweb.com/blog-designer-pack-pro-timeline-designs/" target="_blank">', '</a>' ); ?></p>
 											</div>
 										</div>
 										

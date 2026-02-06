@@ -64,6 +64,7 @@
 .bdpp-h2 {width: 100%;box-sizing: border-box;}
 .bdpp-sett-tab-cnt {padding: 10px 6px;  width: 100%; box-sizing: border-box;}
 .bdpp-sett-tab-cnt span.description{line-height: 22px;}
+.bdpp-nav-tab-offer{display: inline-block; background-color: #ffe133; padding: 0px 6px; color: #000; font-size: 12px; margin: 0 0 0 5px; box-shadow: 0px 0px 0px 1px #000;}
 
 /***** Shortcode Builder *****/
 .bdpp-shrt-fields-panel *{box-sizing: border-box;}
@@ -121,6 +122,7 @@
 }
 
 /* Pro CSS */
+.bdpp-spc-offer{font-size:14px; font-weight:bold; margin-bottom:10px; text-align:center;}
 .bdpp-style-form-wrp img{opacity:0.5;}
 .bdpp-other-post-type-wrap{border:1px solid #eee; padding:15px; margin:10px 0;}
 .bdpp-other-post-type-wrap .bdpp-pro-features{font-size:16px; font-weight:700;}
@@ -148,6 +150,17 @@ a.bdpp-pro-inline-button{border: 1px solid #ca2001; display:block !important; te
 .bdpp-pro-main-wrap .bdpp-cnt-grid i.dashicons{font-size:50px !important; display:block; width:auto; height:auto; color:#0693e3;}
 .bdpp-pro-main-wrap .bdpp-cnt-grid .bdpp-cnt-grid-3{margin:15px 0;}
 .bdpp-style-form-wrp img{max-width:100%;}
+
+/* Pricing */
+.bdpp-pricing-plans{flex: 1;display: flex;gap: 20px; max-width:700px; margin:35px auto;}
+.bdpp-pricing-plans .bdpp-plan-card {background: #fff;border-radius: 12px;text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.08);flex: 1;  position: relative; font-size:14px; border: 2px solid #e2e7ec !important;}
+.bdpp-pricing-plans .bdpp-plan-card h3 {font-size: 22px;border-bottom: 2px solid #e2e7ec !important; padding:10px; margin-top:5px;  margin-bottom: 5px;}
+.bdpp-pricing-plans .bdpp-plan-card.bdpp-highlight{border-color:#5558da  !important;}
+.bdpp-pricing-plans .bdpp-plan-card .bdpp-plan-sub{display:block; margin-top:8px; font-size:14px; color:#ff6347;}
+.bdpp-pricing-plans .bdpp-plan-card .bdpp-regular-price{font-size: 25px; color: #8d8d8d; font-weight: bold; margin-bottom: 10px; text-decoration-color: #ff6347; text-decoration-thickness: 2px;}
+.bdpp-pricing-plans .bdpp-plan-card .bdpp-price	{font-size: 40px; font-weight: bold; margin-bottom: 20px;}
+.bdpp-pricing-plans .bdpp-plan-card .bdpp-duration {font-size: 16px;color: #777;}
+.bdpp-pricing-plans .bdpp-plan-card .bdpp-badge{position: absolute; top: -16px; left: 50%; transform: translateX(-50%); background: #2563eb; color: #fff; padding: 6px 14px; border-radius: 20px; font-size: 14px;}
 
 /* Meta Pro Settings */
 .meta-pro-badge{text-align:center;padding:0px 10px 20px 10px; position:relative;   z-index:999; background:#f1f1f1; border:1px solid #ddd;}

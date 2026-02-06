@@ -365,7 +365,7 @@ msgid ""
 msgstr ""
 
 #. URI of the plugin
-msgid "https://premium.infornweb.com/news-blog-designer-pack-pro/"
+msgid "https://infornweb.com/news-blog-designer-pack-pro/"
 msgstr ""
 
 #. Author of the plugin
@@ -373,5 +373,5 @@ msgid "InfornWeb"
 msgstr ""
 
 #. Author URI of the plugin
-msgid "https://premium.infornweb.com"
+msgid "https://infornweb.com"
 msgstr ""

@@ -229,11 +229,11 @@ if( 'edit' == $action ) {
 											<input type="hidden" name="bdpp_layout_shrt_val" class="bdpp-layout-shrt-val" value="" />
 										</div>
 										<div class="clear"></div>
-									</div>									
-								</div>								
+									</div>
+								</div>
 							</div>
 						</div>	
-						
+						<div class="bdpp-spc-offer">🎉 <?php esc_html_e('Limited Time Special Offer!', 'blog-designer-pack'); ?></div>
 						<a class="bdpp-pro-inline-button" target="_blank" href="<?php echo esc_url( BDP_PRO_TAB_URL ); ?>"><i class="dashicons dashicons-unlock bdpp-shrt-acc-header-pro-icon"></i> <?php esc_html_e('Unlock Premium Features', 'blog-designer-pack'); ?></a>
 						
 					</div>

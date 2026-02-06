@@ -39,7 +39,7 @@ class BDP_Install {
 		$notice_transient = get_transient( 'bdp_pro_buy_notice' );
 
 		if ( $notice_transient == false ) {
-			set_transient( 'bdp_pro_buy_notice', 1, HOUR_IN_SECONDS );
+			set_transient( 'bdp_pro_buy_notice', 1, (15 * MINUTE_IN_SECONDS) );
 		}
 
 		// Deactivate Pro Plugin
