@@ -7,7 +7,7 @@
  * Domain Path: /languages/
  * Author: InfornWeb
  * Author URI: https://infornweb.com
- * Version: 4.0.10
+ * Version: 4.0.11
  * Requires at least: 5.8
  * Requires PHP: 5.4
  * 
@@ -81,7 +81,7 @@ if ( ! class_exists( 'Blog_Designer_Pack_Lite' ) )  :
 		 */
 		private function setup_constants() {
 
-			$this->define( 'BDP_VERSION', '4.0.10' ); // Version of plugin
+			$this->define( 'BDP_VERSION', '4.0.11' ); // Version of plugin
 			$this->define( 'BDP_FILE', __FILE__ );
 			$this->define( 'BDP_DIR', dirname( __FILE__ ) );
 			$this->define( 'BDP_URL', plugin_dir_url( __FILE__ ) );
@@ -173,7 +173,7 @@ if ( ! class_exists( 'Blog_Designer_Pack_Lite' ) )  :
 			require_once( BDP_DIR . '/includes/widgets/class-bdpp-widgets.php' );
 
 			// Blocks
-			require_once( BDP_DIR . '/includes/blocks/bdpp-blocks.php' );
+			require_once( BDP_DIR . '/includes/integrations/blocks/bdpp-blocks.php' );
 
 			// For Admin Side Only
 			if ( is_admin() ) {

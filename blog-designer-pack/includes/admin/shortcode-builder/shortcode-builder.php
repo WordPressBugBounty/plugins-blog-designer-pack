@@ -10,6 +10,9 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
 
+global $wp_version;
+
+$wrap_cls				= '';
 $valid					= true;
 $registered_shortcodes 	= bdp_registered_shortcodes();
 $shortcodes_arr 		= bdp_registered_shortcodes( false );
@@ -17,6 +20,11 @@ $allowed_reg_shortcodes	= bdp_allowed_reg_shortcodes();
 $preview_shortcode 		= ! empty( $_GET['shortcode'] ) ? $_GET['shortcode'] : apply_filters('bdpp_default_preview_shortcode', 'bdp_post' );
 $preview_url 			= add_query_arg( array( 'page' => 'bdpp-shortcode-preview', 'shortcode' => $preview_shortcode), admin_url('admin.php') );
 $shrt_builder_url 		= add_query_arg( array('page' => 'bdpp-shrt-builder'), admin_url('admin.php') );
+
+// Version 7 compatibility
+if ( version_compare( $wp_version, '7.0', '>=' ) ) {
+	$wrap_cls = 'bdpp-layout-wrap-v7';
+}
 
 // Instantiate the shortcode builder
 if( ! class_exists( 'BDPP_Shortcode_Builder' ) ) {
@@ -27,7 +35,7 @@ $shortcode_val		= "[{$preview_shortcode}]";
 $shortcode_fields 	= array();
 $shortcode_sanitize = str_replace('-', '_', $preview_shortcode);
 ?>
-<div class="wrap bdpp-customizer-settings">
+<div class="wrap bdpp-customizer-settings <?php echo esc_attr( $wrap_cls ); ?>">
 	<div class="bdpp-pro-main-wrap bdpp-clearfix" style="text-align:left; margin:0 -15px 20px -15px;">
 		<div class="bdpp-cnt-grid-8 bdpp-columns">
 			<h2><?php esc_html_e( 'Shortcode Builder (Alternate Option For Layouts)', 'blog-designer-pack' ); ?></h2>

@@ -173,6 +173,8 @@ a.bdpp-pro-inline-button{border: 1px solid #ca2001; display:block !important; te
 .bdpp-welcome-panel-content .bdpp-about-description{font-size: 16px; margin: 0; color: #646970;}
 .bdpp-welcome-panel a{text-decoration:none;}
 .bdpp-welcome-panel .dashicons{color:#646970; margin-right:5px;}
+.bdpp-welcome-sett-wrp .bdpp-notice{background-color: #eee; padding: 5px 10px;}
+.bdpp-version-tag{display: inline-block; background-color: #dcdcde; border: 1px solid #000; border-radius: 0px; font-size: 14px; padding: 2px 8px; vertical-align: middle; font-weight: normal;}
 
 #dashboard-widgets .bdpp-feedback h3{font-size:24px; margin-bottom:0px;}
 #dashboard-widgets .bdpp-feedback p{font-size:15px;}
@@ -189,6 +191,11 @@ a.bdpp-pro-inline-button{border: 1px solid #ca2001; display:block !important; te
 .bdpp-layout-box-inner a{display: flex;}
 .bdpp-layout-box-inner:hover a:after{content:"Create Shortcode";  display: flex;  align-items: center;  justify-content: center;color:#000; text-decoration:underline;  position:absolute; top:0; bottom:0; left:0; width:100%; background:rgba(249,168,65,0.9); }
 .bdpp-layout-box-inner:hover a.bdp-upgrade-pro:after{content:"Upgrade To Pro"}
+
+/* WordPress 7.0 fix */
+.bdpp-major-publishing-actions{align-items: start !important; flex-direction: column;}
+.bdpp-layout-wrap-v7 .bdpp-select2-inp .select2-selection--multiple, .bdpp-layout-wrap-v7 .bdpp-select2-inp.select2-container--focus .select2-selection--multiple{border: 1px solid #949494; border-radius: 0;}
+.bdpp-layout-wrap-v7 .bdpp-select2-inp .select2-selection--multiple .select2-search--inline .select2-search__field{line-height: 2.65;}
 
 .bdpp-column,
 .bdpp-columns{padding-left:0.9375em; padding-right:0.9375em; width:100%; float:left; position: relative;}

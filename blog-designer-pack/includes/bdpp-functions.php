@@ -379,13 +379,13 @@ function bdp_post_meta_data( $meta = array(), $args = array(), $join = ' &ndash;
 
 			// Post Author
 			if( $meta_key == 'author' ) {
-				$icon				= ( $args['icon'] ) ? '<i class="fa fa-user"></i>' : null;
+				$icon				= ( $args['icon'] ) ? '<i class="bdpp-fa fa-solid fa-user"></i>' : null;
 				$result[$meta_key]	= '<span class="bdpp-post-meta-data bdpp-post-author">'. $icon . ucfirst( get_the_author() ).'</span>';
 			}
 
 			// Post Date
 			if( $meta_key == 'post_date' ) {
-				$icon				= ( $args['icon'] ) ? '<i class="fa fa-clock-o"></i>' : null;
+				$icon				= ( $args['icon'] ) ? '<i class="bdpp-fa fa-regular fa-clock"></i>' : null;
 				$result[$meta_key]	= '<span class="bdpp-post-meta-data bdpp-post-date">'. $icon . get_the_date().'</span>';
 			}
 
@@ -393,7 +393,7 @@ function bdp_post_meta_data( $meta = array(), $args = array(), $join = ' &ndash;
 			if( $meta_key == 'comments' ) {
 
 				$comment_count	= get_comments_number();
-				$icon			= ( $args['icon'] ) ? '<i class="fa fa-comments"></i>' : null;
+				$icon			= ( $args['icon'] ) ? '<i class="bdpp-fa fa-solid fa-comments"></i>' : null;
 
 				if( (! $args['hide_empty']) || ($args['hide_empty'] && $comment_count > 0) ) {
 					$result[$meta_key] = '<span class="bdpp-post-meta-data bdpp-post-comments">'. $icon . $comment_count .' '. $args['comment_text'].'</span>';
@@ -402,7 +402,7 @@ function bdp_post_meta_data( $meta = array(), $args = array(), $join = ' &ndash;
 
 			// Post Category
 			if( $meta_key == 'category' ) {
-				$icon		= ( $args['icon'] ) ? '<i class="fa fa-folder-open"></i>' : null;
+				$icon		= ( $args['icon'] ) ? '<i class="bdpp-fa fa-solid fa-folder-open"></i>' : null;
 				$cat_list	= bdp_get_post_terms( $args['post_id'], $args['taxonomy'], $args['tag_limit'] );
 
 				if( $cat_list ) {
@@ -412,7 +412,7 @@ function bdp_post_meta_data( $meta = array(), $args = array(), $join = ' &ndash;
 
 			// Post Category
 			if( $meta_key == 'tag' ) {
-				$icon		= ( $args['icon'] ) ? '<i class="fa fa fa-tags"></i>' : null;
+				$icon		= ( $args['icon'] ) ? '<i class="bdpp-fa fa-solid fa-tags"></i>' : null;
 				$tag_list	= bdp_get_post_terms( $args['post_id'], $args['tag_taxonomy'], $args['tag_limit'], ', ' );
 
 				if( $tag_list ) {
@@ -545,17 +545,17 @@ function bdp_post_format_html( $format ) {
 	$result = '';
 
 	if($format == 'video') {
-		$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa fa-play"></i></span>';
+		$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa-solid fa-play"></i></span>';
 	} else if ($format == 'audio') {
-			$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa fa-music"></i></span>';
+			$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa-solid fa-music"></i></span>';
 	} else if ($format == 'quote') {
-			$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa fa-quote-left"></i></span>';
+			$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa-solid fa-quote-left"></i></span>';
 	} else if ($format == 'gallery') {
-			$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa fa-picture-o"></i></span>';
+			$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa-solid fa-image"></i></span>';
 	} else if ($format == 'link') {
-			$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa fa-link"></i></span>';
+			$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa-solid fa-link"></i></span>';
 	} else {
-		$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa fa-thumb-tack"></i></span>';
+		$result = '<span class="bdpp-format-icon"><i class="bdpp-post-icon fa-solid fa-thumbtack"></i></span>';
 	}
 
 	return $result;

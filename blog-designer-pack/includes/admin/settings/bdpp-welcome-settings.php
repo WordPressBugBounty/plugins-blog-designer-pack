@@ -26,7 +26,7 @@ $new_layout_url		= add_query_arg( array('page' => 'bdpp-layout'), 'admin.php' );
 			<div class="inside">
 					<div class="bdpp-welcome-panel">
 						<div class="bdpp-welcome-panel-content bdpp-pro-main-wrap" style="background:#f1f1f1; padding:20px;">
-							<h2 class="bdpp-custom-size"><?php esc_html_e('Success, The Blog Designer Pack is now activated!', 'blog-designer-pack'); ?> 😊</h2>
+							<h2 class="bdpp-custom-size"><?php esc_html_e('Success, The Blog Designer Pack is now activated!', 'blog-designer-pack'); ?> 😊 <span class="bdpp-version-tag"><?php esc_html_e( BDP_VERSION ); ?></span></h2>
 							<p class="bdpp-about-description"><?php esc_html_e('Would you like to create one layout to check usage of Blog Designer Pack plugin?', 'blog-designer-pack'); ?></p>
 							<div class="bdpp-cnt-grid bdpp-clearfix">
 								<div class="bdpp-cnt-grid-3 bdpp-columns">

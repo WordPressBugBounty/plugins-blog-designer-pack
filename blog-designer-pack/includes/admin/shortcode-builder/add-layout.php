@@ -10,6 +10,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
+global $wp_version;
+
+$wrap_cls				= '';
 $valid					= true;
 $meta_prefix			= BDP_META_PREFIX;
 $registered_shortcodes 	= bdp_registered_shortcodes();
@@ -20,6 +23,11 @@ $action					= ( ! empty( $_GET['action'] ) && 'edit' == $_GET['action'] ) ? 'edi
 $layout_id				= ( ! empty( $_GET['id'] ) && 'edit' == $action ) ? bdp_clean_number( $_GET['id'] ) : false;
 $preview_url 			= add_query_arg( array('page' => 'bdpp-shortcode-preview', 'shortcode' => $preview_shortcode), admin_url('admin.php') );
 $page_url				= add_query_arg( array('page' => 'bdpp-layout'), admin_url('admin.php') );
+
+// Version 7 compatibility
+if ( version_compare( $wp_version, '7.0', '>=' ) ) {
+	$wrap_cls = 'bdpp-layout-wrap-v7';
+}
 
 // Instantiate the shortcode builder
 if( ! class_exists( 'BDPP_Shortcode_Builder' ) ) {
@@ -47,7 +55,7 @@ if( 'edit' == $action ) {
 	$duplicate_url	= add_query_arg( array('page' => 'bdpp-layouts', 'shortcode' => $preview_shortcode, 'action' => 'duplicate_layout', 'id' => $layout_id, '_wpnonce' => wp_create_nonce("bdpp-duplicate-layout-{$layout_id}") ), admin_url('admin.php') );
 }
 ?>
-<div class="wrap bdpp-layout-wrap">
+<div class="wrap bdpp-layout-wrap <?php echo esc_attr( $wrap_cls ); ?>">
 
 	<h1 class="wp-heading-inline"><?php echo esc_html( $page_title ); ?></h1>
 	<?php if( 'edit' == $action ) { ?>
@@ -216,7 +224,7 @@ if( 'edit' == $action ) {
 											</div>
 										<?php } ?>
 									</div>
-									<div id="major-publishing-actions">
+									<div id="major-publishing-actions" class="bdpp-major-publishing-actions">
 										<?php if( 'edit' == $action ) { ?>
 										<div id="duplicate-action"><a class="submitduplicate duplication bdpp-confirm" href="<?php echo esc_url( $duplicate_url ); ?>"><?php esc_html_e('Copy to a new layout', 'blog-designer-pack'); ?></a></div>
 										<div id="delete-action"><a class="submitdelete deletion bdpp-confirm" href="<?php echo esc_url( $trash_url ); ?>"><?php esc_html_e('Delete Permanently', 'blog-designer-pack'); ?></a></div>

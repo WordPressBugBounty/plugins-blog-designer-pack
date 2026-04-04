@@ -14,7 +14,7 @@ function bdp_render_pro_settings() { ?>
 
 <div id="bdpp-pro-sett-wrp" class="post-box-container bdpp-pro-sett-wrp">
 	<div class="metabox-holder">
-		<div id="bdpp-css-sett" class="postbox bdpp-postbox">
+		<div id="bdpp-pro-features-sett" class="postbox bdpp-postbox">
 
 			<div class="postbox-header">
 				<h2 class="hndle">
@@ -39,14 +39,14 @@ function bdp_render_pro_settings() { ?>
 					<div class="bdpp-pricing-plans">
 						<div class="bdpp-plan-card">
 							<h3>Annual Plan <span class="bdpp-plan-sub">Billed yearly</span></h3>
-							<del class="bdpp-regular-price">							 		
+							<del class="bdpp-regular-price">
 								<span class="bdpp-currency">$</span>59
-								<span class="bdpp-duration"> /year</span>							  
+								<span class="bdpp-duration"> /year</span>
 							</del>
 							<div class="bdpp-price">
-								<span class="bdpp-duration">From</span>		
-								<span class="bdpp-currency">$</span>49
-								<span class="bdpp-duration"> /year</span>							  
+								<span class="bdpp-duration">From</span>
+								<span class="bdpp-currency">$</span>39
+								<span class="bdpp-duration"> /year</span>
 							</div>
 							<ul class="bdpp-plan-features">
 								<li>- Yearly Renewal, Cancel Anytime</li>
@@ -56,15 +56,15 @@ function bdp_render_pro_settings() { ?>
 						</div>
 						<div class="bdpp-plan-card bdpp-highlight">
 							<span class="bdpp-badge">🎉 Limited-Time Offer</span>
-							<h3>Lifetime Plan <span class="bdpp-plan-sub">One-time payment</span></h3>	
-							<del class="bdpp-regular-price">							 
+							<h3>Lifetime Plan <span class="bdpp-plan-sub">One-time payment</span></h3>
+							<del class="bdpp-regular-price">
 								<span class="bdpp-currency">$</span>149
-								<span class="bdpp-duration"> /One-time</span>							  
+								<span class="bdpp-duration"> /One-time</span>
 							</del>	
 							<div class="bdpp-price">
-								<span class="bdpp-duration">From</span>	
+								<span class="bdpp-duration">From</span>
 								<span class="bdpp-currency">$</span>99
-								<span class="bdpp-duration"> /One-time</span>							  
+								<span class="bdpp-duration"> /One-time</span>
 							</div>
 							<ul class="bdpp-plan-features">	
 								<li>- Pay Once, Use Forever</li>
@@ -88,7 +88,7 @@ function bdp_render_pro_settings() { ?>
 				
 				<div class="bdpp-pro-main-wrap">
 					<div class="bdpp-cnt-wrp">
-						<h3 class="bdpp-custom-size bdpp-text-center">15+ Layouts and 90+ Designs</h3>				
+						<h3 class="bdpp-custom-size bdpp-text-center">15+ Layouts and 90+ Designs</h3>
 						<h3 class="bdpp-text-center">Create unlimited layouts with more than 90+ predefined designs includes <br /> Blog Modules, Post Sliders, Post Carousel, Timeline, GridBox, Masonry and many more...</h3>
 					</div>
 					<div class="bdpp-img-wrp bdpp-text-center">
@@ -102,7 +102,7 @@ function bdp_render_pro_settings() { ?>
 				</div>
 				<div class="bdpp-cnt-row bdpp-pro-main-wrap">
 					<div class="bdpp-cnt-wrp">
-						<h3 class="bdpp-custom-size bdpp-text-center">News and Blog Designer Pack Pro comes with more features</h3>				
+						<h3 class="bdpp-custom-size bdpp-text-center">News and Blog Designer Pack Pro comes with more features</h3>
 						<h3 class="bdpp-text-center">Everything you need to build news, blog and magazine website or blog page</h3>
 					</div>
 					<div class="bdpp-cnt-grid bdpp-clearfix">

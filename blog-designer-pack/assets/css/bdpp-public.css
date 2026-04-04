@@ -54,8 +54,7 @@ h4.bdpp-post-title{font-size:16px; line-height:22px;}
 .bdpp-post-meta .bdpp-post-meta-sep{margin:0 3px;}
 .bdpp-post-meta .bdpp-post-meta-data{margin:0 5px 5px 2px;}
 .bdpp-post-meta a{color:#888}
-.bdpp-post-meta span i.fa, .bdpp-post-meta span svg{margin-right:8px;}
-.bdpp-post-meta span i{font-family: FontAwesome;}
+.bdpp-post-meta span .bdpp-fa, .bdpp-post-meta span svg{margin-right:6px;}
 .bdpp-post-content{margin-top:15px;}
 .bdpp-post-img-bg{margin-bottom:15px; text-align:center; position:relative; background-repeat:no-repeat; background-position: center; -webkit-background-size: cover;
   -moz-background-size: cover;  -o-background-size: cover;  background-size: cover;}
@@ -70,7 +69,6 @@ h4.bdpp-post-title{font-size:16px; line-height:22px;}
 .bdpp-post-grid{margin-bottom:40px;}
 .bdpp-format-icon{display:inline-block;}
 .bdpp-format-icon .bdpp-post-icon{font-size:18px; width:40px; height:40px; line-height:36px; background:rgba(0,0,0,0.5);  border:2px solid #fff; border-radius:100%;}
-.bdpp-post-video .bdpp-format-icon .bdpp-post-icon{ padding-left: 4px;}
 .bdpp-post-meta .bdpp-post-tags a.bdpp-post-cat-link{background:none !important; padding:0px !important;}
 
 /********************************************************
@@ -376,4 +374,4 @@ h4.bdpp-post-title{margin-top:5px !important;}
 
 /* RTL Support */
 .rtl .bdpp-post-content-overlay, .rtl .bdpp-post-overlay{text-align:right !important;}
-.rtl .bdpp-post-meta span i.fa, .rtl .bdpp-post-meta span svg {margin: 0 0 0 5px;}
+.rtl .bdpp-post-meta span .bdpp-fa, .rtl .bdpp-post-meta span svg {margin: 0 0 0 5px;}

@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Blog Designer Pack plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Blog Designer Pack 4.0.10\n"
+"Project-Id-Version: Blog Designer Pack 4.0.11\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/blog-designer-pack\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-02-27T20:23:00+00:00\n"
+"POT-Creation-Date: 2026-04-04T14:47:07+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: blog-designer-pack\n"
@@ -58,7 +58,7 @@ msgid "Layout - Blog Designer Pack"
 msgstr ""
 
 #: includes/admin/class-bdpp-admin.php:49
-#: includes/admin/shortcode-builder/add-layout.php:40
+#: includes/admin/shortcode-builder/add-layout.php:48
 #: includes/bdpp-post-types.php:24
 msgid "Add New Layout"
 msgstr ""
@@ -104,7 +104,7 @@ msgstr ""
 #: includes/bdpp-post-types.php:22
 #: includes/integrations/elementor/bdpp-layout-elementor-wdgt.php:52
 #: includes/integrations/wpbakery/wpbakery.php:35
-#: includes/blocks/build/bdpp-layout/index.js:1
+#: includes/integrations/blocks/build/bdpp-layout/index.js:1
 msgid "Layout"
 msgstr ""
 
@@ -182,8 +182,8 @@ msgstr ""
 #: includes/admin/settings/bdpp-sharing-settings.php:25
 #: includes/admin/settings/bdpp-taxonomy-settings.php:24
 #: includes/admin/settings/bdpp-trending-settings.php:24
-#: includes/admin/shortcode-builder/add-layout.php:237
-#: includes/admin/shortcode-builder/shortcode-builder.php:38
+#: includes/admin/shortcode-builder/add-layout.php:245
+#: includes/admin/shortcode-builder/shortcode-builder.php:46
 #: includes/style-manager/styles-form.php:19
 msgid "Unlock Premium Features"
 msgstr ""
@@ -398,8 +398,8 @@ msgid "Welcome"
 msgstr ""
 
 #: includes/admin/settings/bdpp-register-settings.php:68
-#: includes/admin/shortcode-builder/add-layout.php:153
-#: includes/admin/shortcode-builder/shortcode-builder.php:69
+#: includes/admin/shortcode-builder/add-layout.php:161
+#: includes/admin/shortcode-builder/shortcode-builder.php:77
 #: includes/admin/shortcode-support/shortcode-fields.php:4176
 #: includes/bdpp-functions.php:689
 msgid "General"
@@ -741,168 +741,168 @@ msgstr ""
 msgid "Display posts in timeline view."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:41
-#: includes/admin/shortcode-builder/add-layout.php:202
+#: includes/admin/shortcode-builder/add-layout.php:49
+#: includes/admin/shortcode-builder/add-layout.php:210
 msgid "Publish"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:44
+#: includes/admin/shortcode-builder/add-layout.php:52
 #: includes/bdpp-post-types.php:25
 msgid "Edit Layout"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:45
+#: includes/admin/shortcode-builder/add-layout.php:53
 msgid "Update"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:54
+#: includes/admin/shortcode-builder/add-layout.php:62
 #: includes/bdpp-post-types.php:23
 msgid "Add Layout"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:68
-#: includes/admin/shortcode-builder/add-layout.php:290
+#: includes/admin/shortcode-builder/add-layout.php:76
+#: includes/admin/shortcode-builder/add-layout.php:298
 #: includes/admin/shortcode-builder/class-bdpp-shortcode-generator.php:38
-#: includes/admin/shortcode-builder/shortcode-builder.php:48
-#: includes/admin/shortcode-builder/shortcode-builder.php:131
+#: includes/admin/shortcode-builder/shortcode-builder.php:56
+#: includes/admin/shortcode-builder/shortcode-builder.php:139
 #: includes/class-bdpp-public.php:37
 msgid "Sorry, Something happened wrong."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:94
+#: includes/admin/shortcode-builder/add-layout.php:102
 msgid "Sorry, No shortcode layout found."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:108
+#: includes/admin/shortcode-builder/add-layout.php:116
 msgid "Layout saved successfully."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:114
+#: includes/admin/shortcode-builder/add-layout.php:122
 msgid "Sorry, Something happened wrong. Layout data has not been saved."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:120
+#: includes/admin/shortcode-builder/add-layout.php:128
 msgid "Layout data copied successfully."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:132
+#: includes/admin/shortcode-builder/add-layout.php:140
 msgid "Layout Name"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:136
+#: includes/admin/shortcode-builder/add-layout.php:144
 msgid "Layout Description"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:143
+#: includes/admin/shortcode-builder/add-layout.php:151
 #: includes/integrations/elementor/bdpp-layout-elementor-wdgt.php:44
 msgid "Choose Layout"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:147
+#: includes/admin/shortcode-builder/add-layout.php:155
 msgid "-- Choose Layout --"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:182
-#: includes/admin/shortcode-builder/add-layout.php:270
+#: includes/admin/shortcode-builder/add-layout.php:190
+#: includes/admin/shortcode-builder/add-layout.php:278
 #: includes/admin/shortcode-builder/class-bdpp-layout-list.php:182
-#: includes/admin/shortcode-builder/shortcode-builder.php:116
+#: includes/admin/shortcode-builder/shortcode-builder.php:124
 msgid "Shortcode"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:185
+#: includes/admin/shortcode-builder/add-layout.php:193
 msgid "Kindly add below shortcode to any page or post to get the output."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:187
+#: includes/admin/shortcode-builder/add-layout.php:195
 #: includes/admin/shortcode-builder/class-bdpp-layout-list.php:102
 msgid "Copy"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:189
+#: includes/admin/shortcode-builder/add-layout.php:197
 msgid "Copied!"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:209
+#: includes/admin/shortcode-builder/add-layout.php:217
 msgid "Enable Layout"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:210
+#: includes/admin/shortcode-builder/add-layout.php:218
 msgid "Note: If layout is not enabled then no result will be displayed at front."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:214
+#: includes/admin/shortcode-builder/add-layout.php:222
 msgid "Choose your desired layout and check various parameters from left panel."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:221
+#: includes/admin/shortcode-builder/add-layout.php:229
 msgid "Copy to a new layout"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:222
+#: includes/admin/shortcode-builder/add-layout.php:230
 msgid "Delete Permanently"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:236
-#: includes/admin/shortcode-builder/shortcode-builder.php:37
+#: includes/admin/shortcode-builder/add-layout.php:244
+#: includes/admin/shortcode-builder/shortcode-builder.php:45
 msgid "Limited Time Special Offer!"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:247
-#: includes/admin/shortcode-builder/shortcode-builder.php:55
+#: includes/admin/shortcode-builder/add-layout.php:255
+#: includes/admin/shortcode-builder/shortcode-builder.php:63
 msgid "Sorry, The shortcode contains some invalid parameters. These parameters may be missing, obsolete, or incompatible with the current selection. Please verify and correct the parameters to ensure the shortcode functions correctly."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:248
-#: includes/admin/shortcode-builder/shortcode-builder.php:56
+#: includes/admin/shortcode-builder/add-layout.php:256
+#: includes/admin/shortcode-builder/shortcode-builder.php:64
 msgid "The parameters are:"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:253
+#: includes/admin/shortcode-builder/add-layout.php:261
 msgid "Layout Options"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:270
+#: includes/admin/shortcode-builder/add-layout.php:278
 msgid ""
 "Paste below shortcode to any page or post to get output as preview. \n"
 "\n"
 "You can paste shortcode to below and press Generate button to preview so each and every time you do not have to choose each parameters!!!"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:272
-#: includes/admin/shortcode-builder/shortcode-builder.php:118
+#: includes/admin/shortcode-builder/add-layout.php:280
+#: includes/admin/shortcode-builder/shortcode-builder.php:126
 msgid "Generate"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:276
-#: includes/admin/shortcode-builder/shortcode-builder.php:123
+#: includes/admin/shortcode-builder/add-layout.php:284
+#: includes/admin/shortcode-builder/shortcode-builder.php:131
 msgid "Copy or Paste Shortcode"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:281
-#: includes/admin/shortcode-builder/shortcode-builder.php:127
+#: includes/admin/shortcode-builder/add-layout.php:289
+#: includes/admin/shortcode-builder/shortcode-builder.php:135
 msgid "Preview Window"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:281
-#: includes/admin/shortcode-builder/shortcode-builder.php:127
+#: includes/admin/shortcode-builder/add-layout.php:289
+#: includes/admin/shortcode-builder/shortcode-builder.php:135
 msgid "Preview will be displayed according to responsive layout mode. You can check with `Full Preview` mode for better visualization."
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:283
-#: includes/admin/shortcode-builder/shortcode-builder.php:119
+#: includes/admin/shortcode-builder/add-layout.php:291
+#: includes/admin/shortcode-builder/shortcode-builder.php:127
 msgid "Full Preview Mode"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:284
+#: includes/admin/shortcode-builder/add-layout.php:292
 msgid "Want to debug layout which parameters are being used?"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:284
+#: includes/admin/shortcode-builder/add-layout.php:292
 msgid "Debug?"
 msgstr ""
 
-#: includes/admin/shortcode-builder/add-layout.php:296
-#: includes/admin/shortcode-builder/shortcode-builder.php:137
+#: includes/admin/shortcode-builder/add-layout.php:304
+#: includes/admin/shortcode-builder/shortcode-builder.php:145
 msgid "Note: Preview will be displayed according to responsive layout mode. Live preview may display differently when added to your page based on inheritance from some styles."
 msgstr ""
 
@@ -991,34 +991,34 @@ msgstr ""
 msgid "Post"
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:33
+#: includes/admin/shortcode-builder/shortcode-builder.php:41
 msgid "Shortcode Builder (Alternate Option For Layouts)"
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:34
+#: includes/admin/shortcode-builder/shortcode-builder.php:42
 msgid "Shortcode builder is an alternate option for those who do not want to create the layout & store the data in to database. It will help you to understand all the parameters in the details."
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:60
+#: includes/admin/shortcode-builder/shortcode-builder.php:68
 msgid "Choose Shortcode"
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:63
+#: includes/admin/shortcode-builder/shortcode-builder.php:71
 msgid "-- Choose Shortcode --"
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:95
+#: includes/admin/shortcode-builder/shortcode-builder.php:103
 msgid ""
 "The shortcode builder allows you to preview plugin shortcode. You can choose your desired shortcode from the dropdown and check various parameters from left panel. \n"
 "\n"
 "You can paste shortcode to below textarea and press Generate button to preview so each and every time you do not have to choose each parameters!!!"
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:100
+#: includes/admin/shortcode-builder/shortcode-builder.php:108
 msgid "Shortcode Parameters"
 msgstr ""
 
-#: includes/admin/shortcode-builder/shortcode-builder.php:116
+#: includes/admin/shortcode-builder/shortcode-builder.php:124
 msgid "Paste below shortcode to any page or post to get output as preview."
 msgstr ""
 
@@ -4034,51 +4034,51 @@ msgstr ""
 msgid "Enter category id or slug to display categories wise."
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/index.js:1
+#: includes/integrations/blocks/build/bdpp-layout/index.js:1
 msgid "Layout Selection"
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/index.js:1
+#: includes/integrations/blocks/build/bdpp-layout/index.js:1
 msgid "Select a post display layout. You can search by post ID or title. You can create or manage layout from"
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/index.js:1
+#: includes/integrations/blocks/build/bdpp-layout/index.js:1
 msgid "here"
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/index.js:1
+#: includes/integrations/blocks/build/bdpp-layout/index.js:1
 msgid "Blog Designer Pack - Layout"
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/index.js:1
+#: includes/integrations/blocks/build/bdpp-layout/index.js:1
 msgid "Post layout will be displayed on the frontend. You can create or manage layout from"
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/index.js:1
+#: includes/integrations/blocks/build/bdpp-layout/index.js:1
 msgid "Use the sidebar and select a post display layout."
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/block.json
+#: includes/integrations/blocks/build/bdpp-layout/block.json
 msgctxt "block title"
 msgid "Blog Designer Pack - Layouts"
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/block.json
+#: includes/integrations/blocks/build/bdpp-layout/block.json
 msgctxt "block keyword"
 msgid "blog"
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/block.json
+#: includes/integrations/blocks/build/bdpp-layout/block.json
 msgctxt "block keyword"
 msgid "post"
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/block.json
+#: includes/integrations/blocks/build/bdpp-layout/block.json
 msgctxt "block keyword"
 msgid "post grid"
 msgstr ""
 
-#: includes/blocks/build/bdpp-layout/block.json
+#: includes/integrations/blocks/build/bdpp-layout/block.json
 msgctxt "block description"
 msgid "Choose a post display layout."
 msgstr ""

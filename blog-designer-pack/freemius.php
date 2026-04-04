@@ -47,6 +47,9 @@ if ( !function_exists( 'bdp_fs' ) ) {
 	// Init Freemius.
 	bdp_fs();
 
+	// Display yearly pricing
+	bdp_fs()->add_filter( 'pricing/show_annual_in_monthly', '__return_false' );
+
 	// Signal that SDK was initiated.
 	do_action( 'bdp_fs_loaded' );
 }
