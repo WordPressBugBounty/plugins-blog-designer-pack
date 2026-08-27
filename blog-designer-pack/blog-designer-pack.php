@@ -7,7 +7,7 @@
  * Domain Path: /languages/
  * Author: InfornWeb
  * Author URI: https://infornweb.com
- * Version: 4.0.11
+ * Version: 4.0.12
  * Requires at least: 5.8
  * Requires PHP: 5.4
  * 
@@ -81,7 +81,7 @@ if ( ! class_exists( 'Blog_Designer_Pack_Lite' ) )  :
 		 */
 		private function setup_constants() {
 
-			$this->define( 'BDP_VERSION', '4.0.11' ); // Version of plugin
+			$this->define( 'BDP_VERSION', '4.0.12' ); // Version of plugin
 			$this->define( 'BDP_FILE', __FILE__ );
 			$this->define( 'BDP_DIR', dirname( __FILE__ ) );
 			$this->define( 'BDP_URL', plugin_dir_url( __FILE__ ) );

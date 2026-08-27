@@ -3,8 +3,8 @@ Contributors: infornweb, aadhya9
 Tags: blog, news, post grid, post slider, post carousel
 Requires at least: 5.8
 Requires PHP: 5.4
-Tested up to: 7.0
-Stable tag: 4.0.11
+Tested up to: 7.1
+Stable tag: 4.0.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -370,6 +370,10 @@ Yes, Blog Designer Pack will work with any WordPress themes, but may require som
 6. Blog Designer Pack - Grid Box Layout
 
 == Changelog ==
+
+= 4.0.12 (27 Aug, 2026) =
+* [Update] - Check compatibility with WordPress 7.1
+* [Update] - Update Freemius SDK to latest version 2.13.4
 
 = 4.0.11 (05 April, 2026) =
 * [Update] - Update Font Awesome fonts library to version 7.2

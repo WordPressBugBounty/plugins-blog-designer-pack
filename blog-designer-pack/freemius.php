@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-if ( !function_exists( 'bdp_fs' ) ) {
+if ( ! function_exists( 'bdp_fs' ) ) {
 	
 	// Create a helper function for easy SDK access.
 	function bdp_fs() {
